@@ -1,0 +1,58 @@
+design,original_report_locator,field_or_path,value,units
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/01_Synthesis_Utilization.rpt,Slice LUTs,2568,LUT
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/01_Synthesis_Utilization.rpt,Slice Registers,65,FF
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/01_Synthesis_Utilization.rpt,Slice,711,slice
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/01_Synthesis_Utilization.rpt,DSPs,0,DSP
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/01_Synthesis_Utilization.rpt,Bonded IOB,0,IOB
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/07_Power_Summary.rpt,CARRY4,183,primitive
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/07_Power_Summary.rpt,Dynamic,7,mW
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/07_Power_Summary.rpt,Device Static,122,mW
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/07_Power_Summary.rpt,Total On-Chip Power,129,mW
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/03_Timing_Summary.rpt,A[12] to product[61],23.613,ns
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/03_Timing_Summary.rpt,WNS,52.684,ns
+Candidate 3,Vivado_Reports_Sparse_MAC_Candidate3/03_Timing_Summary.rpt,WHS,0.238,ns
+Candidate 3,cand3_final_optimized_corrected_xdc/input_to_reg_timing.rpt,A[12] to acc_reg_reg[64]/D,24.111,ns
+Candidate 3,cand3_final_optimized_corrected_xdc/input_to_reg_timing.rpt,path slack,54.993,ns
+Candidate 3,cand3_final_optimized_corrected_xdc/power_saif.rpt,Design Nets Matched,1/3946,nets
+Candidate 3,cand3_final_optimized_corrected_xdc/power_saif.rpt,Dynamic,7,mW
+Conventional shift-and-add,Vivado syn/Conventional Mac/power.rpt,Dynamic,69,mW
+Conventional shift-and-add,Vivado syn/Conventional Mac/power.rpt,I/O,63,mW
+Conventional shift-and-add,Out_Of_Context_Mode/orig_conv/power_vectorless.rpt,Dynamic,3,mW
+Adaptive,Vivado syn/ADP_MAC/power.rpt,Dynamic,9,mW
+Adaptive,Vivado syn/ADP_MAC/timing_summary.rpt,B[20] to accumulator/out_reg[63]/D,33.255,ns
+Clean sparse,baseline_sparse_mac/power_vectorless.rpt,Dynamic,10,mW
+Clean sparse,baseline_sparse_mac/input_to_reg_timing.rpt,A[11] to u_adp/accumulator/out_reg[60]/D,35.448,ns
+conventional_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Slice LUTs,1521,LUT
+conventional_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Flip Flops,66,FF
+conventional_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Dynamic Power (mW),3.0,mW
+conventional_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Static Power (mW),122.0,mW
+conventional_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Total Power (mW),125.0,mW
+conventional_mac_top_enhanced,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_tb,Slice LUTs,2025,LUT
+conventional_mac_top_enhanced,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_tb,Flip Flops,65,FF
+conventional_mac_top_enhanced,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_tb,Dynamic Power (mW),10.0,mW
+conventional_mac_top_enhanced,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_tb,Static Power (mW),122.0,mW
+conventional_mac_top_enhanced,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_tb,Total Power (mW),132.0,mW
+conventional_mac_csla_top,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_csla_tb,Slice LUTs,2282,LUT
+conventional_mac_csla_top,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_csla_tb,Flip Flops,65,FF
+conventional_mac_csla_top,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_csla_tb,Dynamic Power (mW),12.0,mW
+conventional_mac_csla_top,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_csla_tb,Static Power (mW),122.0,mW
+conventional_mac_csla_top,VALIDATED_APPLES_TO_APPLES_PPA.csv & conv_mac_csla_tb,Total Power (mW),133.0,mW
+adaptive_mac_top,Vivado syn/ADP_MAC & unified_5design_validation_tb,Slice LUTs,2409,LUT
+adaptive_mac_top,Vivado syn/ADP_MAC & unified_5design_validation_tb,Flip Flops,65,FF
+adaptive_mac_top,Vivado syn/ADP_MAC & unified_5design_validation_tb,Dynamic Power (mW),9.0,mW
+adaptive_mac_top,Vivado syn/ADP_MAC & unified_5design_validation_tb,Static Power (mW),122.0,mW
+adaptive_mac_top,Vivado syn/ADP_MAC & unified_5design_validation_tb,Total Power (mW),131.0,mW
+adaptive_sparse_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Slice LUTs,2341,LUT
+adaptive_sparse_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Flip Flops,65,FF
+adaptive_sparse_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Dynamic Power (mW),9.0,mW
+adaptive_sparse_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Static Power (mW),122.0,mW
+adaptive_sparse_mac_top,VALIDATED_APPLES_TO_APPLES_PPA.csv,Total Power (mW),131.0,mW
+mac_sparse_clean,metrics_comparison.json,Slice LUTs,2351,LUT
+mac_sparse_clean,metrics_comparison.json,Flip Flops,65,FF
+mac_sparse_clean,metrics_comparison.json,Dynamic Power (mW),10.0,mW
+mac_sparse_clean,metrics_comparison.json,Total Power (mW),131.0,mW
+mac_sparse_ulp_precision_gated,Vivado_Reports_Sparse_MAC_Candidate3 & XSim,Slice LUTs,2568,LUT
+mac_sparse_ulp_precision_gated,Vivado_Reports_Sparse_MAC_Candidate3 & XSim,Flip Flops,65,FF
+mac_sparse_ulp_precision_gated,Vivado_Reports_Sparse_MAC_Candidate3 & XSim,Dynamic Power (mW),7.0,mW
+mac_sparse_ulp_precision_gated,Vivado_Reports_Sparse_MAC_Candidate3 & XSim,Static Power (mW),122.0,mW
+mac_sparse_ulp_precision_gated,Vivado_Reports_Sparse_MAC_Candidate3 & XSim,Total Power (mW),129.0,mW

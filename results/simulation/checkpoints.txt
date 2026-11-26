@@ -1,0 +1,26 @@
+
+tb_mac_sparse_ulp_precision_gated | Phase 2 independent XSim 2026.1 replay
+>>> Directed Corner Cases Completed. Total Tests: 38, Failures: 0 <<<
+   Zero-Skipped Cycles:    629 (80.23% sparsity)
+   Candidate 3 Accumulator Out: 3995709172 (Hex: 0x000000000ee29aef4)
+>>> ALL VERIFICATION TESTS PASSED (0 ERRORS) <<<
+
+conv_mac_tb | Phase 2 independent XSim 2026.1 replay
+ Total Assertions Evaluated : 1818
+ Passed Assertions          : 1818
+ Failed Assertions          : 0
+
+conv_mac_csla_tb | Phase 2 independent XSim 2026.1 replay
+   Total Checks Executed : 1791
+   Passed Assertions    : 1790
+   Failed Assertions    : 0
+
+unified_5design_validation_tb | Phase 2 independent XSim 2026.1 replay
+   1. Original Conventional MAC       : -26017714596 (0x1fffffff9f1392e5c) | Match: YES (100%)
+   2. Candidate 1 (Baugh-Wooley CSA)  : -26017714596 (0x1fffffff9f1392e5c) | Match: YES (100%)
+   3. Candidate 2 (Carry-Select MAC)  : -26017714596 (0x1fffffff9f1392e5c) | Match: YES (100%)
+   4. Dynamic/Adaptive MAC (65-bit)   : 18446744047691837020 (0x0fffffff9f1392e5c) | [63:0]: 0xfffffff9f1392e5c | Match:  DIFFERENT
+   5. Sparse Adaptive MAC (65-bit)    : 18446744047691837020 (0x0fffffff9f1392e5c) | [63:0]: 0xfffffff9f1392e5c | Match:  DIFFERENT
+
+candidate3_oracle_tb | Phase 2 independent XSim 2026.1 replay
+PASS pairs=3043 INT8=1001 INT16=1002 INT32=1040 skips=37 signed_wraps=9

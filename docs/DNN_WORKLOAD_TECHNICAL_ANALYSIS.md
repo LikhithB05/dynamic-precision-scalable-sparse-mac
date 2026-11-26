@@ -1,0 +1,5 @@
+﻿# A 784-product validation workload
+
+Dense neural-network layers compute weighted sums. Convolution and matrix multiplication also reduce to families of dot products. The project uses a recognizable MNIST image to exercise signed integer arithmetic, precision selection and redundant zero multiplies in an individual MAC data path. The arrays reuse the operand sequence with their own lane schedules.
+
+The original generator trains SimpleDNN, then uses `trainset[0]` (label 5 in the preserved run report) and `model.fc1.weight.data[0]`. The 784 positions represent the first dense neuron's incoming terms for one image. The export omits bias and scales different index regions independently, so the resulting integer sum is an arithmetic reference for the test vectors. Hidden preactivations are computed during model forward but never exported. [Model](PYTORCH_MODEL_ARCHITECTURE.md) · [Integer conversion](DATASET_GENERATION_AND_INTEGER_CONVERSION.md) · [Source](../software/pytorch/mnist_dnn_mem_generator.py)

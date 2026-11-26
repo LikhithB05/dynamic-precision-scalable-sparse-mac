@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="395" viewBox="0 0 1100 395" font-family="Arial, sans-serif"><title>Precision selection and zero skipping</title><desc>Signed operands change on falling edges. The accumulator samples the product on rising edges.</desc>
+<rect width="1100" height="395" fill="#fbfdfe"/>
+<text x="22.00" y="32.00" font-size="24" fill="#122e3e" text-anchor="start" font-weight="bold">Precision selection and zero skipping</text>
+<text x="22.00" y="56.00" font-size="15" fill="#263b48" text-anchor="start" font-weight="normal">Signed operands change on falling edges. The accumulator samples the product on rising edges.</text>
+<text x="22.00" y="87.00" font-size="13" fill="#465f6c" text-anchor="start" font-weight="bold">Time (ns)</text>
+<line x1="193.0" x2="193.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="193.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">5</text>
+<line x1="278.0" x2="278.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="278.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">10</text>
+<line x1="363.0" x2="363.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="363.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">15</text>
+<line x1="448.0" x2="448.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="448.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">20</text>
+<line x1="533.0" x2="533.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="533.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">25</text>
+<line x1="618.0" x2="618.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="618.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">30</text>
+<line x1="703.0" x2="703.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="703.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">35</text>
+<line x1="788.0" x2="788.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="788.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">40</text>
+<line x1="873.0" x2="873.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="873.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">45</text>
+<line x1="958.0" x2="958.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="958.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">50</text>
+<line x1="1043.0" x2="1043.0" y1="92" y2="358" stroke="#d5dfe5" stroke-dasharray="3 4"/>
+<text x="1043.00" y="86.00" font-size="12" fill="#263b48" text-anchor="middle" font-weight="normal">55</text>
+<text x="22.00" y="113.00" font-size="14" fill="#2b5885" text-anchor="start" font-weight="normal">clk</text>
+<path d="M193.0,100 H278.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M278.0,116 H363.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M278.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M363.0,100 H448.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M363.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M448.0,116 H533.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M448.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M533.0,100 H618.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M533.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M618.0,116 H703.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M618.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M703.0,100 H788.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M703.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M788.0,116 H873.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M788.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M873.0,100 H958.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M873.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M958.0,116 H1043.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M958.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M1043.0,100 H1060.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M1043.0,100 V116" fill="none" stroke="#2b5885" stroke-width="2"/>
+<text x="22.00" y="145.00" font-size="14" fill="#2b5885" text-anchor="start" font-weight="normal">reset</text>
+<path d="M193.0,132 H278.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M278.0,148 H1060.0" fill="none" stroke="#2b5885" stroke-width="2"/>
+<path d="M278.0,132 V148" fill="none" stroke="#2b5885" stroke-width="2"/>
+<text x="22.00" y="177.00" font-size="14" fill="#2b5885" text-anchor="start" font-weight="normal">A</text>
+<path d="M193.0,172 l4,-9 H274.0 l4,9 l-4,9 H197.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="235.50" y="176.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">0</text>
+<path d="M278.0,172 l4,-9 H444.0 l4,9 l-4,9 H282.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="363.00" y="176.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">3</text>
+<path d="M448.0,172 l4,-9 H614.0 l4,9 l-4,9 H452.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="533.00" y="176.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">0</text>
+<path d="M618.0,172 l4,-9 H784.0 l4,9 l-4,9 H622.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="703.00" y="176.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">256</text>
+<path d="M788.0,172 l4,-9 H954.0 l4,9 l-4,9 H792.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="873.00" y="176.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">70000</text>
+<path d="M958.0,172 l4,-9 H1056.0 l4,9 l-4,9 H962.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="1009.00" y="176.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">0</text>
+<text x="22.00" y="209.00" font-size="14" fill="#2b5885" text-anchor="start" font-weight="normal">B</text>
+<path d="M193.0,204 l4,-9 H274.0 l4,9 l-4,9 H197.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="235.50" y="208.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">0</text>
+<path d="M278.0,204 l4,-9 H444.0 l4,9 l-4,9 H282.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="363.00" y="208.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">-4</text>
+<path d="M448.0,204 l4,-9 H614.0 l4,9 l-4,9 H452.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="533.00" y="208.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">300</text>
+<path d="M618.0,204 l4,-9 H784.0 l4,9 l-4,9 H622.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="703.00" y="208.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">2</text>
+<path d="M788.0,204 l4,-9 H954.0 l4,9 l-4,9 H792.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="873.00" y="208.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">-1</text>
+<path d="M958.0,204 l4,-9 H1056.0 l4,9 l-4,9 H962.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="1009.00" y="208.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">0</text>
+<text x="22.00" y="241.00" font-size="14" fill="#2b5885" text-anchor="start" font-weight="normal">mode</text>
+<path d="M193.0,236 l4,-9 H274.0 l4,9 l-4,9 H197.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="235.50" y="240.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">X</text>
+<path d="M278.0,236 l4,-9 H444.0 l4,9 l-4,9 H282.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="363.00" y="240.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">INT8</text>
+<path d="M448.0,236 l4,-9 H784.0 l4,9 l-4,9 H452.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="618.00" y="240.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">INT16</text>
+<path d="M788.0,236 l4,-9 H954.0 l4,9 l-4,9 H792.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="873.00" y="240.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">INT32</text>
+<path d="M958.0,236 l4,-9 H1056.0 l4,9 l-4,9 H962.0 z" fill="#edf4f7" stroke="#2b5885" stroke-width="1.3"/>
+<text x="1009.00" y="240.00" font-size="12" fill="#2b5885" text-anchor="middle" font-weight="normal">INT8</text>
+<text x="22.00" y="273.00" font-size="14" fill="#006e6d" text-anchor="start" font-weight="normal">skip_flag</text>
+<path d="M193.0,260 H278.0" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M278.0,276 H448.0" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M278.0,260 V276" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M448.0,260 H618.0" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M448.0,260 V276" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M618.0,276 H958.0" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M618.0,260 V276" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M958.0,260 H1060.0" fill="none" stroke="#006e6d" stroke-width="2"/>
+<path d="M958.0,260 V276" fill="none" stroke="#006e6d" stroke-width="2"/>
+<text x="22.00" y="305.00" font-size="14" fill="#006e6d" text-anchor="start" font-weight="normal">product</text>
+<path d="M193.0,300 l4,-9 H274.0 l4,9 l-4,9 H197.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="235.50" y="304.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">0</text>
+<path d="M278.0,300 l4,-9 H444.0 l4,9 l-4,9 H282.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="363.00" y="304.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">-12</text>
+<path d="M448.0,300 l4,-9 H614.0 l4,9 l-4,9 H452.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="533.00" y="304.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">0</text>
+<path d="M618.0,300 l4,-9 H784.0 l4,9 l-4,9 H622.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="703.00" y="304.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">512</text>
+<path d="M788.0,300 l4,-9 H954.0 l4,9 l-4,9 H792.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="873.00" y="304.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">-70000</text>
+<path d="M958.0,300 l4,-9 H1056.0 l4,9 l-4,9 H962.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="1009.00" y="304.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">0</text>
+<text x="22.00" y="337.00" font-size="14" fill="#006e6d" text-anchor="start" font-weight="bold">accumulator_out</text>
+<path d="M193.0,332 l4,-9 H359.0 l4,9 l-4,9 H197.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="278.00" y="336.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">0</text>
+<path d="M363.0,332 l4,-9 H699.0 l4,9 l-4,9 H367.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="533.00" y="336.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">-12</text>
+<path d="M703.0,332 l4,-9 H869.0 l4,9 l-4,9 H707.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="788.00" y="336.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">500</text>
+<path d="M873.0,332 l4,-9 H1056.0 l4,9 l-4,9 H877.0 z" fill="#edf4f7" stroke="#006e6d" stroke-width="1.3"/>
+<text x="966.50" y="336.00" font-size="12" fill="#006e6d" text-anchor="middle" font-weight="normal">-69500</text>
+<text x="22.00" y="383.00" font-size="12" fill="#506571" text-anchor="start" font-weight="normal">Source: supplementary Icarus RTL simulation · 10 ns testbench clock · zero-delay logic · bus values shown in decimal</text>
+</svg>

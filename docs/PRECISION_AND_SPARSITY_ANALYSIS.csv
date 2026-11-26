@@ -1,0 +1,4 @@
+﻿evidence,pairs,all_int8,all_int16,all_int32,skipped,executed,active_int8,active_int16,active_int32,zero_activations,zero_weights,both_zero,checkpoint
+Academic report Tables 4.4–4.6,784,307,430,47,642,142,31,64,47,,,,historical trace
+Frozen DNN,784,316,421,47,629,155,46,62,47,619,71,61,3995709172
+Frozen MEM_Files,784,298,439,47,629,155,44,64,47,619,61,51,-26017714596
