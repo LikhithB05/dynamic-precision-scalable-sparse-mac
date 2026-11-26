@@ -17,9 +17,11 @@ This work was developed as part of a final-year undergraduate Major project in t
 
 ### Academic Project Team
 - **Likhith B** ([LikhithB05](https://github.com/LikhithB05))
-- **Ananya S**
-- **Apoorva Sheshadri**
 - **K. S. Sindhura**
+-  **Apoorva Sheshadri**
+- **Ananya S**
+
+
 
 *(Specific individual sub-roles for other team members are not fabricated or specified beyond team membership credited in academic project materials.)*
 
